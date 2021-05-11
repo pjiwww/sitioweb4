@@ -19,10 +19,10 @@ $(function () {
 
     window.addEventListener('resize', function(){
         let equipo = $('#equipo').offset().top,
-            servicio = $('#servicio').offset().top,
-            trabajo = $('#trabajo').offset().top,
-            contacto = $('#contacto').offset().top;
-    });
+        servicio = $('#servicio').offset().top,
+        trabajo = $('#trabajo').offset().top,
+        contacto = $('#contacto').offset().top;
+    })
     
     $('#enlace-inicio').on('click', function(e){
         e.preventDefault();
